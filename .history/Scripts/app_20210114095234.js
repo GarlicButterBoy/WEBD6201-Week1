@@ -19,10 +19,7 @@
           
         let clickMeButton = document.getElementById("clickMeButton");
 
-        clickMeButton.addEventListener("click", ()=> 
-        {
-            console.log("Click me button was depressed :(");
-        });
+        clickMeButton.addEventListener("click", )
        }
     }
     //Event Listener

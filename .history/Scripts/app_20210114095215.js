@@ -17,12 +17,8 @@
            
         console.log(index);
           
-        let clickMeButton = document.getElementById("clickMeButton");
+        let clickMeButton = document.getElementById
 
-        clickMeButton.addEventListener("click", ()=> 
-        {
-            console.log("Click me button was depressed :(");
-        });
        }
     }
     //Event Listener

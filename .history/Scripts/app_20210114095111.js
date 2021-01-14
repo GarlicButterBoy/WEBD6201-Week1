@@ -17,12 +17,10 @@
            
         console.log(index);
           
-        let clickMeButton = document.getElementById("clickMeButton");
+        $("#clickMeButton").on("click", function() {
+            console.log("Click Me Button is Depressed :(")
+        })
 
-        clickMeButton.addEventListener("click", ()=> 
-        {
-            console.log("Click me button was depressed :(");
-        });
        }
     }
     //Event Listener

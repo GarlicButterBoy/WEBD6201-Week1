@@ -21,7 +21,6 @@
 
         clickMeButton.addEventListener("click", ()=> 
         {
-            console.log("Click me button was depressed :(");
         });
        }
     }
