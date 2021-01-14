@@ -1,0 +1,15 @@
+{
+  "name": "webd6201-week1",
+  "version": "0.0.1",
+  "description": "Demo Project for WEBD6201",
+  "main": "index.js",
+  "repository": "https://github.com/GarlicButterBoy/WEBD6201-Week1.git",
+  "author": "Nick Sturch-Flint <nickdoesreviews@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
