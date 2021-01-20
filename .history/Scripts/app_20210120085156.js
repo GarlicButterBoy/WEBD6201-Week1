@@ -4,7 +4,7 @@
 
 //IIFE - Immediately Invoked Function Expression
 //AKA - Anonymous Self-Executing Function
-//Closure - Limits Scope Leak
+//Closure - 
 (function()
 {
     //Initialization Function
