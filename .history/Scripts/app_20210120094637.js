@@ -24,14 +24,13 @@
        paragraphOneElement.textContent = paragraphOneText;
 
        //Step 1. document.createElement
-       let newParagraph = document.createElement("p");
-       //Step 2. Configure the element
-       newParagraph.setAttribute("id", "paragraphTwo");
-       newParagraph.textContent = "...And this is paragraph Two.";
-       //Step 3. Select the parent
-       let paragraphTwoElement = document.getElementsByTagName("main")[0];
-       //Step 4. Add/Insert the element 
-       paragraphTwoElement.appendChild(newParagraph); 
+       document.createElement("p");
+
+       //Step 2.
+
+       
+       //Step 3. 
+
        for (let index = 0; index < 5; index++) 
        {
            
