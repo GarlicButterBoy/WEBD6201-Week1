@@ -55,9 +55,9 @@
            case 'Services':
                displayServices();
                break;
-           case 'Contact':
-               displayContact();
-               break;        
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

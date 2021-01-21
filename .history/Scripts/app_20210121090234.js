@@ -47,17 +47,17 @@
                displayHome();
                break;
            case 'About':
-               displayAbout();
-               break;
+                   displayAbout();
+                   break;
            case 'Products':
                displayProducts();
                break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+               case 'Services':
+                   displayServices();
+                   break;
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

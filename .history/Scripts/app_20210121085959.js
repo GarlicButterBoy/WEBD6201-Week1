@@ -41,23 +41,19 @@
     {
        
        console.log("App Started...");
-       switch(document.title)
+       switch(document.title);
        {
            case 'Home':
                displayHome();
                break;
-           case 'About':
-               displayAbout();
-               break;
+               case 'About':
+                   break;
            case 'Products':
-               displayProducts();
                break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+               case 'Services':
+                   break;
+                    case 'Contact':
+                       break;        
        } 
 
 /*

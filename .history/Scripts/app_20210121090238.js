@@ -48,16 +48,16 @@
                break;
            case 'About':
                displayAbout();
-               break;
+                   break;
            case 'Products':
                displayProducts();
                break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+               case 'Services':
+                   displayServices();
+                   break;
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

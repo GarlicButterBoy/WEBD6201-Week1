@@ -52,12 +52,12 @@
            case 'Products':
                displayProducts();
                break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+               case 'Services':
+                   displayServices();
+                   break;
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

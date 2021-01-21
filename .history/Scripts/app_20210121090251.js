@@ -54,10 +54,10 @@
                break;
            case 'Services':
                displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+                   break;
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

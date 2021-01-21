@@ -10,54 +10,16 @@
 
 (function()
 {
-
-    function displayHome()
-    {
-
-    }
-
-    function displayAbout()
-    {
-        
-    }
-
-    function displayProducts()
-    {
-        
-    }
-
-    function displayServices()
-    {
-        
-    }
-
-    function displayContact()
-    {
-        
-    }
-
     //Initialization Function
     function Start()
     {
        
        console.log("App Started...");
-       switch(document.title)
+       switch(document.title);
        {
            case 'Home':
-               displayHome();
                break;
-           case 'About':
-               displayAbout();
-               break;
-           case 'Products':
-               displayProducts();
-               break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+               case 'About'
        } 
 
 /*

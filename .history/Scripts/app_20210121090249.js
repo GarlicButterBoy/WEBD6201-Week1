@@ -53,11 +53,11 @@
                displayProducts();
                break;
            case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
+                   displayServices();
+                   break;
+                    case 'Contact':
+                        displayContact();
+                       break;        
        } 
 
 /*

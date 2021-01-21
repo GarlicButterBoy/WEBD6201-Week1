@@ -56,8 +56,8 @@
                displayServices();
                break;
            case 'Contact':
-               displayContact();
-               break;        
+                        displayContact();
+                       break;        
        } 
 
 /*

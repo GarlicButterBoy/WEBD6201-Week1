@@ -10,56 +10,11 @@
 
 (function()
 {
-
-    function displayHome()
-    {
-
-    }
-
-    function displayAbout()
-    {
-        
-    }
-
-    function displayProducts()
-    {
-        
-    }
-
-    function displayServices()
-    {
-        
-    }
-
-    function displayContact()
-    {
-        
-    }
-
     //Initialization Function
     function Start()
     {
        
        console.log("App Started...");
-       switch(document.title)
-       {
-           case 'Home':
-               displayHome();
-               break;
-           case 'About':
-               displayAbout();
-               break;
-           case 'Products':
-               displayProducts();
-               break;
-           case 'Services':
-               displayServices();
-               break;
-           case 'Contact':
-               displayContact();
-               break;        
-       } 
-
 /*
        let paragraphOneText = "This is a simple site to demonstrate DOM Manipulation for ICE 01.";
 
@@ -106,7 +61,7 @@
         <h1 id="firstHeading">Welcome to Webd6201 - Lab 1</h1>
         <p id="firstParagraph" class="fw-bold">This is the first paragraph</p>
         `;
-*/
+
        for (let index = 0; index < 5; index++) 
        {
            
@@ -127,7 +82,7 @@
 
 })();
 
-
+*/
 
 
  
