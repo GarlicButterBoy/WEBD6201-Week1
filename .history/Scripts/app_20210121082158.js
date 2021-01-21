@@ -29,38 +29,15 @@
        newParagraph.setAttribute("id", "paragraphTwo");
        newParagraph.textContent = "...And this is paragraph Two.";
        //Step 3. Select the parent
-       let mainContent = document.getElementsByTagName("main")[0];
+       let paragraphTwoElement = document.getElementsByTagName("main")[0];
        //Step 4. Add/Insert the element 
-       mainContent.appendChild(newParagraph);
+       paragraphTwoElement.appendChild(newParagraph);
 
        paragraphTwo.className = "fs-6";
 
-       //Another way to inject a comment
-       let paragraphDiv = document.createElement('div'); 
-       let paragraphThree = `<p class="fs-7" fw-bold>This is the third paragraph.</p>`; 
-       paragraphDiv.innerHTML = paragraphThree;
-       
-       //Insertion Before
-       //paragraphTwo.before(paragraphDiv);
 
-       //Insertion After
-       paragraphTwo.after(paragraphDiv); 
+       let paragraphThree = 
 
-       //deletions
-       //target an element
-       //paragraphOneElement.remove();//remove a single element
-       //target a child (rough)
-       mainContent.removeChild(paragraphOneElement); 
-
-       //updates/modifications
-       //paragraphTwoElement.firstChild.textContent = "This is an update. Welcome back!";
-       mainContent.firstElementChild.textContent = "This is an update. Welcome back!";
-
-        mainContent.innerHTML = 
-        `
-        <h1 id="firstHeading">Welcome to Webd6201 - Lab 1</h1>
-        <p id="firstParagraph" class="fw-bold">This is the first paragraph</p>
-        `;
 
        for (let index = 0; index < 5; index++) 
        {

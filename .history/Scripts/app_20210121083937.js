@@ -59,7 +59,7 @@
         mainContent.innerHTML = 
         `
         <h1 id="firstHeading">Welcome to Webd6201 - Lab 1</h1>
-        <p id="firstParagraph" class="fw-bold">This is the first paragraph</p>
+        <p id="firstParagraph class="fw">This is the first paragraph</p>
         `;
 
        for (let index = 0; index < 5; index++) 
