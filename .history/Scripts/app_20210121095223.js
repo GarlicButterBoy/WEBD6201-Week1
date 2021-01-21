@@ -40,7 +40,7 @@
         let fullName = document.getElementById("fullName");
         fullName.addEventListener("blur", function() 
         {
-            if (fullName.value.length < 2)
+            if (fullName.nodeValue.length < 2)
             {
                 fullName.focus();
                 fullName.select();
@@ -53,10 +53,7 @@
             }
         });
 
-        let sendButton = document.getElementById("sendButton");
-        sendButton.addEventListener("click", function(event){
-            //event.preventDefault();
-        });
+        let sendButton = document.getElementById()
     }
 
     //Initialization Function

@@ -40,7 +40,7 @@
         let fullName = document.getElementById("fullName");
         fullName.addEventListener("blur", function() 
         {
-            if (fullName.value.length < 2)
+            if (fullName.nodeValue.length < 2)
             {
                 fullName.focus();
                 fullName.select();
